@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  python-app:
+    build: .
+    container_name: python-container
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
+    command: python
