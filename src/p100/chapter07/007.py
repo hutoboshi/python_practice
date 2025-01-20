@@ -1,0 +1,1 @@
+raise ValueError("無効な値です")
