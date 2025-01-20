@@ -1,0 +1,2 @@
+t = 'one',
+print(t)
